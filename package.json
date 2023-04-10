@@ -1,0 +1,23 @@
+{
+    "name": "ToneTicks",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "repository": "",
+    "author": "soma_arc",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.19.0",
+        "@babel/preset-env": "^7.19.0",
+        "babel-loader": "^8.2.5",
+        "tone": "^14.7.77",
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.9.0"
+    },
+    "scripts": {
+        "release": "webpack --mode production",
+        "build": "webpack --mode development",
+        "start": "webpack serve"
+    }
+}
